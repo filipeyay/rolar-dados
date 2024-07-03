@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rolar Dados🎲</title>
+</head>
+<body>
+    <div id="container">
+        <p>Instruções: Digite o número desejado ou use as setas ao lado da caixa para aumentar ou diminuir a quantidade de dados que quiser gerar. Por enquanto só é suportado o dado de 6 faces.</p>
+    </div>
+    <label>Nº de dados: </label>
+    <input type="number" id="numDados" value="1" min="1">
+    <button onclick="btnRolar()">Rolar</button>
+    <div id="resultado"></div>
+    <div id="imagem"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
